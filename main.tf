@@ -1,5 +1,5 @@
 
-module "lex-bot" {
-  source         = "./modules/lex-bot"
+module "lex_bot" {
+  source         = "./modules/lex_bot"
   project_prefix = var.project_prefix
 }
