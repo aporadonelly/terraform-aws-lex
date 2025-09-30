@@ -1,0 +1,29 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*.override.tf
+*.override.tf.json
+.terraform/
+.terraform.lock.hcl
+
+# Lambda build artifacts
+*.zip
+__pycache__/
+*.pyc
+
+# Sensitive files
+*.pem
+*.key
+*.env
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS / system files
+.DS_Store
